@@ -1,0 +1,55 @@
+@import "./shared/fonts";
+@import "./components/header";
+@import "./shared/index";
+
+.absolute {
+    position: absolute;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", "Helvetica";
+}
+
+.self-typed {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.base-page {
+    padding-top: 150px;
+    color: white;
+}
+
+//.parent-class {
+//    &.sibling-class {
+//        h1 {
+//            font-weight: bold;
+//        }
+//        h2 {
+//            font-weight: bold;
+//        }
+//    }
+//    &-title {
+//        color: red;
+//    }
+//    &-date {
+//        color: blue;
+//    }
+//    h1 {
+//        color: blue;
+//    }
+//    h2 {
+//        color: red;
+//    }
+//    .child-class {
+//        font-weight: bold;
+//    }
+//}
