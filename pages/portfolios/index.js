@@ -36,7 +36,6 @@ const Portfolios = () => {
         </BaseLayout>
     )
 }
-
 // buat init props dari next
 // Portfolios.getInitialProps = async () => {
 //     let posts = [];
